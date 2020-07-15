@@ -1,0 +1,26 @@
+.shirt-mobile {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: inherit;
+  width: inherit;
+}
+.shirt-canvas {
+  height: 60%;
+}
+.shirt-category {
+  height: 40%;
+}
+.shirt-mobile-main {
+  height: 67.6vh;
+  min-height: 550px;
+}
+
+@media only screen and (max-height: 600px) {
+  .shirt-canvas {
+    height: 55%;
+  }
+  .shirt-category {
+    height: 45%;
+  }
+}

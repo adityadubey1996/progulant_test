@@ -1,0 +1,102 @@
+.navbar-desktop {
+  width: 100vw;
+  height: 75px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+
+  position: fixed;
+  background: linear-gradient(180deg, #ffffff 0%, #e5e5e5 100%);
+  box-shadow: 0px 4px 100px rgba(0, 0, 0, 0.2);
+  border-radius: 0px;
+  z-index: 9999;
+}
+.logo-desktop {
+  height: 100%;
+  width: 30%;
+  text-align: center;
+}
+.navbar-desktop-outer {
+  height: 100%;
+  width: 40%;
+  display: flex;
+  flex-direction: row;
+}
+.icon-navbar-outer {
+  height: 100%;
+  width: 30%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.navbar-desktop-inner {
+  display: flex;
+  width: 25%;
+  flex-direction: column;
+  color: #656565;
+}
+.navbar-desktop-animation-outer {
+  height: 20%;
+}
+.navbar-dekstop-inner-inner {
+  height: 80%;
+  font-size: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+.icon-navbar-inner {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.icon-navbar-inner-inner {
+  height: 3%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.icon-desktop {
+  height: fit-content;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.cart-number {
+  position: absolute;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.cart-number-positioning > svg {
+  height: 17px;
+  width: 17px;
+}
+.cart-number-number {
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  left: 0%;
+  top: -15%;
+  font-weight: 500;
+  color: #ffffff;
+}
+.clicked-navbar-desktop {
+  background: rgba(255, 92, 65, 0.1);
+  box-shadow: -5px 5px 10px rgba(0, 0, 0, 0.2),
+    5px -5px 10px rgba(255, 255, 255, 0.8);
+  border-radius: 0px 0px 10px 10px;
+}
+.clicked-navbar-desktop > .navbar-desktop-animation-outer {
+  background: #ff5c41;
+  box-shadow: -1px -1px 4px rgba(0, 0, 0, 0.5),
+    1px 1px 4px rgba(255, 255, 255, 0.6);
+}
+.clicked-navbar-desktop > .navbar-dekstop-inner-inner {
+  color: #ff5c41;
+}
+.navbar-desktop-navlink {
+  height: 100%;
+}

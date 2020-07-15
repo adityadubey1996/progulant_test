@@ -1,0 +1,16 @@
+.pattern-inner-filter-div,
+.pattern-inner-plain-cotton-div,
+.pattern-inner-lenin-div,
+.pattern-inner-check-cotton-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: #e5e5e5;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2),
+    -4px -4px 10px rgba(255, 255, 255, 0.8);
+  border-radius: 20px;
+  color: #656565;
+  font-size: 12px;
+  padding: 0px 10px;
+  cursor: pointer;
+}

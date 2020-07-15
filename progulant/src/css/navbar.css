@@ -1,0 +1,60 @@
+.navbar-mobile {
+  position: fixed;
+  height: 75px;
+  width: 100vw;
+  min-height: 75px;
+  bottom: 0%;
+  background: linear-gradient(180deg, #ffffff 0%, #e5e5e5 100%);
+  box-shadow: -4px -4px 100px rgba(0, 0, 0, 0.1);
+  border-radius: 0px;
+  z-index: 9999;
+}
+.navbar-inner {
+  height: inherit;
+  width: inherit;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.navbar-inner-horizontal {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  height: 100%;
+}
+.navbar-inner-main {
+  width: 25%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.navbar-mobile-icon {
+  height: 70%;
+  display: flex;
+  justify-content: center;
+}
+.navbar-mobile-icon > svg {
+  height: 50px;
+  width: 50px;
+}
+.special-icon > svg {
+  height: 100%;
+  width: 35%;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+.home-active-mobile > .navbar-mobile-icon > svg > g > path {
+  fill: #ff5c41;
+}
+.home-active-mobile > div {
+  color: #ff5c41;
+}
+@media only screen and (max-height: 600px) {
+  .special-icon > svg {
+    width: 28%;
+  }
+}

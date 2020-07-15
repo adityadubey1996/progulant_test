@@ -1,0 +1,109 @@
+.footer-desktop-inner {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.first-level-footer-outer {
+  height: 65%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.first-level-footer {
+  height: 60%;
+  display: flex;
+  flex-direction: row;
+}
+.footer-button-div-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 60%;
+}
+.footer-line-div {
+  height: 0.2%;
+}
+.last-level-footer {
+  height: 33%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.footer-list {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.footer-list-header {
+  color: #656565;
+}
+.footer-list-inner {
+  color: rgb(0, 0, 0, 0.8);
+}
+.footer-right-content {
+  display: flex;
+  width: 50%;
+  justify-content: space-around;
+}
+.footer-button-div {
+  width: 20%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.footer-button-inner-div {
+  width: 80%;
+  height: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.secondary_button {
+  border: 3px solid #ff5c41;
+  box-sizing: border-box;
+  box-shadow: 3px 3px 8px rgba(86, 12, 0, 0.5),
+    -3px -3px 8px rgba(255, 193, 183, 0.8),
+    inset 4px 4px 4px rgba(255, 255, 255, 0.2),
+    inset -4px -4px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 100px;
+  padding: 5px 20px;
+  color: #ff5c41;
+  background-color: #e5e5e5;
+}
+.footer-logo {
+  width: 30%;
+  text-align: center;
+}
+.special-desktop-button {
+  text-align: center;
+}
+.footer-line-inner-div {
+  width: 90%;
+  background: rgb(0, 0, 0, 0.8);
+}
+.footer-line-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.last-level-footer-inner {
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 20px;
+}
+.last-level-footer-inner-icons {
+  display: flex;
+  width: 30%;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.last-level-footer-inner-inner-icons {
+  width: 60%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}

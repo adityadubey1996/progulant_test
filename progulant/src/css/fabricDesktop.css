@@ -1,0 +1,87 @@
+.fabric-desktop {
+  height: 70%;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 25% 45%;
+  grid-template-rows: 100%;
+  grid-template-areas: "fabric_list" "fabric_selection_div";
+}
+.fabric-list {
+  grid-area: "fabric_list";
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+/* .canvas-dedsktop-main {
+  grid-area: "canvas_dedsktop_main";
+} */
+.fabric-selection-div {
+  grid-area: "fabric_selection_div";
+}
+.fabric-list-inner {
+  height: 8%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  background: #f9f9f9;
+  border-bottom: 1px solid #ff5c41;
+}
+.fabric-list-inner-inner {
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+  justify-content: center;
+  display: flex;
+}
+.fabric-list-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.fabric-list-outerline {
+  width: 2%;
+}
+.fabric-list-realthing {
+  width: 98%;
+  text-align: center;
+}
+.background-desktop {
+  background: radial-gradient(50% 112.5% at 50% 50%, #ffffff 0%, #cfcfcf 100%);
+}
+.fabric-inner-selected {
+  border: none;
+}
+.fabric-inner-selected > .fabric-list-outerline {
+  background: #ff5c41;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2),
+    -5px -5px 10px rgba(255, 255, 255, 0.8);
+}
+.fabric-inner-selected > .fabric-list-inner-inner {
+  background: #e5e5e5;
+  box-shadow: inset 5px 5px 10px rgba(0, 0, 0, 0.2),
+    inset -5px -5px 10px rgba(255, 255, 255, 0.8);
+}
+.default-selection {
+  border: none;
+}
+.default-selection > .fabric-list-outerline {
+  background: #ff5c41;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2),
+    -5px -5px 10px rgba(255, 255, 255, 0.8);
+}
+.default-selection > .fabric-list-inner-inner {
+  background: #e5e5e5;
+  box-shadow: inset 5px 5px 10px rgba(0, 0, 0, 0.2),
+    inset -5px -5px 10px rgba(255, 255, 255, 0.8);
+}
+.next-button-div {
+  height: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.next-button-inner-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}

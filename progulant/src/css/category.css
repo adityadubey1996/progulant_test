@@ -1,0 +1,139 @@
+:root {
+  --height-div: 9vh;
+  --min-height-div: 75px;
+}
+
+.top-category {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.button-div {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 30px;
+
+  justify-content: space-around;
+}
+.add-to-cart-button {
+  background: #dddddd;
+  box-shadow: 3px 3px 8px #8c8c8c, -3px -3px 8px #ffffff,
+    inset 4px 4px 4px rgba(255, 255, 255, 0.5),
+    inset -4px -4px 4px rgba(0, 0, 0, 0.1);
+  color: #ff5c41;
+}
+.order-now-button {
+  background: #ff5c41;
+  color: #dddddd;
+}
+.special-button {
+  box-shadow: 3px 3px 8px rgba(86, 12, 0, 0.5),
+    -3px -3px 8px rgba(255, 193, 183, 0.8),
+    inset 4px 4px 4px rgba(255, 255, 255, 0.2),
+    inset -4px -4px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 100px;
+  border-width: 0px;
+  font-size: 15px;
+  padding: 15px 30px;
+}
+.shirt-category-inner {
+  height: 100%;
+  width: inherit;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+}
+.first-level-category-outer {
+  width: 100vw;
+  height: var(--height-div);
+  min-height: var(--min-height-div);
+  display: flex;
+  justify-content: center;
+  margin-top: 2px;
+}
+.first-level-category {
+  display: flex;
+  flex-direction: column;
+  width: 95%;
+  justify-content: center;
+}
+.text-first-level-category {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.icon-first-level-category {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.inner-icon-first-level-category {
+  width: 25%;
+  display: flex;
+  justify-content: center;
+}
+.text-inner-first-level-category {
+  width: 25%;
+  text-align: center;
+  font-size: 10.5px;
+}
+.first-level-category-bottom {
+  display: flex;
+  flex-direction: row;
+  background: #979797;
+  justify-content: center;
+  width: 100vw;
+  height: 10px;
+}
+.inner-first-level-category-bottom {
+  width: 95%;
+  display: flex;
+}
+.inner-first-level-category-bottom-styling {
+  width: 25%;
+  height: 100%;
+}
+.icon-first-level-category-inner {
+  height: var(--height-div);
+  min-height: var(--min-height-div);
+  width: inherit;
+  position: absolute;
+  z-index: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.icon-first-level-category-inner1 {
+  width: 25%;
+}
+
+.first-level-selection {
+  background: rgba(255, 92, 65, 0.1);
+  box-shadow: inset 5px -5px 10px 0px rgba(0, 0, 0, 0.2),
+    5px -5px 10px rgba(255, 255, 255, 0.8);
+  border-radius: 10px 10px 0px 0px;
+}
+.first-level-bottom-styling {
+  background: #ff5c41;
+  box-shadow: -1px -1px 4px rgba(0, 0, 0, 0.5),
+    1px 1px 4px rgba(255, 255, 255, 0.6);
+}
+
+@media only screen and (max-height: 600px) {
+  .special-button {
+    padding: 10px 20px;
+  }
+  .bottom-category {
+    height: 60px;
+    background-color: #e5e5e5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .first-level-category {
+    justify-content: flex-end;
+  }
+  .shirt-category-inner {
+    height: 90%;
+  }
+}

@@ -1,0 +1,26 @@
+.front-option-outer-div {
+  height: 140px;
+  width: 140px;
+  background: #e5e5e5;
+  border-radius: 20px;
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2),
+    -4px -4px 8px rgba(255, 255, 255, 0.6);
+}
+.front-option-inner-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+}
+.front-option-inner-inner-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 80%;
+  width: 100%;
+}
+.front-option-inner-inner-div > svg {
+  height: 80%;
+  width: 80%;
+}

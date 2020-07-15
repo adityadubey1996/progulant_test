@@ -1,0 +1,7 @@
+.shirt-canvas-inner-desktop {
+  grid-area: shirt_canvas_inner_desktop;
+
+  width: 30%;
+
+  right: 0%;
+}

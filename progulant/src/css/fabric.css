@@ -1,0 +1,37 @@
+.fabric {
+  height: 50px;
+  width: 50px;
+  box-shadow: inset 2px 2px 4px rgba(0, 0, 0, 0.3),
+    inset -2px -2px 4px rgba(255, 255, 255, 0.6);
+  background: #f1f1f1;
+  border-radius: 12px;
+  display: flex;
+  overflow: hidden;
+}
+img {
+  border-radius: 12px;
+  width: inherit;
+  mask-image: linear-gradient(94deg, black 81%, transparent 100%);
+}
+.swiper-container {
+  height: 60px;
+  background: #e5e5e5;
+}
+.fabric-outer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+@media only screen and (max-height: 600px) {
+  .swiper-container {
+    height: 40px;
+    background: #e5e5e5;
+  }
+  .fabric {
+    height: 40px;
+    width: 40px;
+  }
+  .fabric-outer {
+    flex-direction: row;
+  }
+}

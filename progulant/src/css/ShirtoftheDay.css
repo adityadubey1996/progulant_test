@@ -1,0 +1,115 @@
+.ShirtOfTheDay-outer {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+}
+.ShirtOfTheDay-outer-main {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 90%;
+  height: 100%;
+}
+.ShirtOfTheDay-outer-outer-main {
+  width: 100%;
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.ShirtOfTheDay-inner-categories {
+  height: 10%;
+  width: 100%;
+}
+.ShirtOfTheDay-inner-selection-div {
+  height: 100%;
+  width: 100%;
+  margin-top: 15px;
+  background: #c2c2c2;
+  box-shadow: inset 5px 5px 10px rgba(0, 0, 0, 0.2),
+    inset -5px -5px 10px rgba(255, 255, 255, 0.6);
+  border-radius: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.ShirtOfTheDay-inner-selection-div-inner {
+  width: 90%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.ShirtOfTheDay-inner-selection-div-inner-inner {
+  height: 90%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.ShirtOfTheDay-inner-selection-div-inner-inner-main {
+  background: #e5e5e5;
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2),
+    -4px -4px 8px rgba(255, 255, 255, 0.4);
+  border-radius: 30px;
+  height: 45%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.ShirtOfTheDay-inner-selection-div-inner-inner-main-heading {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 20%;
+}
+.ShirtOfTheDay-inner-selection-div-inner-inner-main-heading-main {
+  text-align: center;
+  height: fit-content;
+  color: #656565;
+}
+.ShirtOfTheDay-inner-selection-div-inner-inner-main-selection {
+  height: 60%;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  overflow-y: scroll;
+}
+.short-class-for-options {
+  height: 70%;
+  width: 20%;
+  display: flex;
+  justify-content: center;
+}
+.option-inner {
+  clip-path: circle(50% at 50% 50%);
+  height: 66px;
+  width: 66px;
+  max-width: 100%;
+  background: #693d97;
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2),
+    -4px -4px 8px rgba(255, 255, 255, 0.8);
+}
+.special-image-div-desktop {
+}
+.ShirtoftheDay-options {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.ShirtoftheDay-options-inner {
+  background: #f1f1f1;
+  border-radius: 20px;
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2),
+    -4px -4px 8px rgba(255, 255, 255, 0.8);
+}
+.special-image-div-desktop {
+  height: 100%;
+  width: 100%;
+  box-shadow: none;
+  -webkit-mask-image: none;
+}

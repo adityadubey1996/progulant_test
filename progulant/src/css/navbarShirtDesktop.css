@@ -1,0 +1,30 @@
+.navbar-shirt-outer {
+  width: 100%;
+  height: 70px;
+  position: relative;
+  top: 75px;
+  display: flex;
+  justify-content: center;
+  background: #e5e5e5;
+  box-shadow: inset 4px 4px 10px rgba(0, 0, 0, 0.2),
+    inset -4px -4px 10px rgba(255, 255, 255, 0.8);
+}
+.navbar-shirt-inner {
+  width: 40%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.navbar-shirt-inner-inner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0px 15px;
+}
+.navbar-shirt-selected {
+  background: rgba(255, 92, 65, 0.1);
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2),
+    -5px -5px 10px rgba(255, 255, 255, 0.8);
+  border-radius: 0px;
+  color: #ff5c41;
+}

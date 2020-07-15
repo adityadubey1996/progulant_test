@@ -1,0 +1,11 @@
+.home_desktop {
+  width: 100vw;
+  height: fit-content;
+  display: grid;
+  grid-template-rows: repeat(3, 425px);
+  grid-row-gap: 50px;
+  background: #e5e5e5;
+}
+.navbar-desktop {
+  display: flex;
+}

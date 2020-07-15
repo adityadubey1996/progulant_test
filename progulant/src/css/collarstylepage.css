@@ -1,0 +1,19 @@
+.collor-option-outer-div {
+  margin: 10px;
+  height: 80px;
+  width: 80px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background: #e5e5e5;
+  border-radius: 20px;
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2),
+    -4px -4px 8px rgba(255, 255, 255, 0.6);
+}
+.collor-option-inner-div {
+  height: 100%;
+  display: flex;
+  width: 90%;
+  justify-content: center;
+  flex-direction: column;
+}
